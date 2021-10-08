@@ -2,4 +2,4 @@
 
 set -eux
 
-sudo /opt/directord/bin/directord --config-file /etc/directord/config.yaml --debug server $@
+sudo d-run.sh server $@

@@ -2,7 +2,5 @@
 
 set -eux
 
-pidof -x directord | xargs sudo kill
-
-ps axuw | grep directord
-
+tmux send-keys -t 0:0.0 C-c Enter
+tmux send-keys -t 0:0.1 C-c Enter
