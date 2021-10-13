@@ -2,4 +2,4 @@
 
 set -eux
 
-cd ~/directord/; /opt/directord/bin/pip install .; cd -
+cd ~/directord/; sudo /opt/directord/bin/pip install .; cd -
