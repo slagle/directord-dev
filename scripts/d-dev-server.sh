@@ -2,4 +2,4 @@
 
 set -eux
 
-/root/d-venv/bin/directord --driver messaging --debug server $@
+~/d-venv/bin/directord --driver messaging --debug server $@

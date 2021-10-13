@@ -2,9 +2,9 @@
 
 set -eux
 
-virtualenv /root/d-venv
-source /root/d-venv/bin/activate
-cd /root/directord
+virtualenv ~/d-venv
+source ~/d-venv/bin/activate
+cd ~/directord
 pip install .
 pip install -e .
 cd --

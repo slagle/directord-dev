@@ -2,7 +2,7 @@
 
 set -eux
 
-cd /root/directord/
-/root/d-venv/bin/pip install .
-/root/d-venv/bin/pip install -e .
+cd ~/directord/
+~/d-venv/bin/pip install .
+~/d-venv/bin/pip install -e .
 cd -
